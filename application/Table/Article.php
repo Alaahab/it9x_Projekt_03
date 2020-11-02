@@ -2,15 +2,40 @@
 
 namespace Application\Table;
 
-class Article
+use Application\App;
+
+class Article extends Table
 {
+    protected static $table = 'article';
 
-    public function __get($key) {
+    public static function find($id) {
 
-        $method = 'get' . ucfirst($key);
-        $this->$key = $this->$method();
+        return self::query("SELECT article.id, article.title, article.content, sportcategory.title as category  
+                FROM article 
+                LEFT JOIN sportcategory on category_id = sportcategory.id
+                WHERE article.id = ? 
+                
+                ", [$id], true);
+    }
 
-        return $this->$key;
+    public static function getLast() {
+        return self::query("
+                SELECT article.id, article.title, article.content, sportcategory.title as category  
+                FROM article 
+                LEFT JOIN sportcategory on category_id = sportcategory.id
+                ORDER By article.date DESC 
+                
+                ");
+    }
+
+    public static function lastByCategory($category_id) {
+        return self::query("
+                SELECT article.id, article.title, article.content, sportcategory.title as category  
+                FROM article 
+                LEFT JOIN sportcategory on category_id = sportcategory.id
+                 WHERE category_id = ?
+                  ORDER By article.date DESC 
+                 ", [$category_id]);
     }
 
 
