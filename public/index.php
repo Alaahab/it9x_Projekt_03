@@ -12,14 +12,13 @@ if (isset($_GET['p'])) {
     $p = 'home';
 }
 
-
-$db = new Database('trainingplan');
-
 ob_start();
 if ($p === 'home') {
     require '../pages/home.php';
 } elseif ($p === 'article') {
     require '../pages/single.php';
+}  elseif ($p === 'category') {
+    require '../pages/category.php';
 }
 
 
