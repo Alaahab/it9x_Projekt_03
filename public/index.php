@@ -13,7 +13,7 @@ if (isset($_GET['p'])) {
 }
 
 
-$db = new Database('blog');
+$db = new Database('trainingplan');
 
 ob_start();
 if ($p === 'home') {
