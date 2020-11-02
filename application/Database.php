@@ -26,7 +26,7 @@ class Database {
      * @param string $db_host
      */
 
-    public function __construct($db_name = 'blog', $db_user = 'root', $db_password = '', $db_host='localhost') {
+    public function __construct($db_name = 'trainingplan', $db_user = 'root', $db_password = '', $db_host='localhost') {
 
         $this->db_name = $db_name;
         $this->db_user = $db_user;
@@ -43,7 +43,7 @@ class Database {
 
         if ($this->pdo === null) {
 
-            $pdo = new PDO('mysql:dbname=blog;host=localhost', 'root', '');
+            $pdo = new PDO('mysql:dbname=trainingplan;host=localhost', 'root', '');
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->pdo = $pdo;
         }
