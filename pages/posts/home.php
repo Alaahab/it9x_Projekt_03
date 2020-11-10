@@ -5,14 +5,18 @@
     use Application\Table\Category;
 
     ?>
+    <p>
+        <a href="?p=admin.post.add" class="btn btn-success">Add Post</a>
+    </p>
+
     <div class="row">
         <div class="col-sm-8">
 
-            <?php foreach (Article::getLast() as $post): ?>
+            <?php foreach (\App::getInstance()->getTable('Post')->last() as $post): ?>
 
 
             <h2><a href="<?= $post->url ?>"><?= $post->title; ?></a></h2>
-            <p><em> <?= $post->category; ?></em></p>
+            <p><em> <?= $post->catergory; ?></em></p>
 
             <p><?= $post->extract ?></p>
 
@@ -25,7 +29,7 @@
 
             <ul>
 
-                <?php foreach (Category::all() as $category): ?>
+                <?php foreach (\App::getInstance()->getTable('Category')->all() as $category): ?>
 
                     <li><a href="<?= $category->url; ?>"><?= $category->title; ?></a></li>
 

@@ -1,35 +1,40 @@
 <?php
 
-use Application\App;
-use Application\Database;
+//use Application\App;
+//use Application\Database;
+//use Core\Table;
 
-require '../application/Autoload.php';
-Application\Autoload::register();
+define('ROOT', dirname(__DIR__));
 
-//
-//if (isset($_GET['p'])) {
-//    $p = $_GET['p'];
-//} else {
-//    $p = 'home';
-//}
-//
-//ob_start();
-//if ($p === 'home') {
-//    require '../pages/home.php';
-//} elseif ($p === 'article') {
-//    require '../pages/single.php';
-//}  elseif ($p === 'category') {
-//    require '../pages/category.php';
-//}
-//
-//
-//$content = ob_get_clean();
-//require '../pages/templates/default.php';
 
-$app = App::getInstance();
+require ROOT . '/application/App.php';
+App::load();
 
-$app->title = 'test';
 
-$app2 = application\App::getInstance();
+if(isset($_GET['p'])) {
+    $page = $_GET['p'];
+} else {
+    $page = 'home';
+}
 
-echo $app2->title;
+ob_start();
+if ($page === 'home') {
+    require ROOT . '\pages\posts\home.php';
+} elseif ($page === 'posts.category') {
+    require ROOT . '\pages\posts\category.php';
+}elseif ($page === 'posts.show') {
+    require ROOT . '\pages\posts\show.php';
+}
+elseif ($page === 'login') {
+    require ROOT . '\pages\users\login.php';
+}
+elseif ($page === 'registration') {
+    require ROOT . '\pages\users\registration.php';
+}
+
+elseif ($page === 'admin.post.add') {
+    require ROOT . '\pages/admin/posts/addPost.php';
+}
+
+$content = ob_get_clean();
+require  ROOT . '/pages/templates/default.php';
