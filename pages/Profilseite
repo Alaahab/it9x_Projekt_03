@@ -1,0 +1,41 @@
+<?php
+ session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membereich - Profil Website</title>
+</head>
+<body>
+<h1> Deine Profilseite</h1>
+Willkommen <b>
+
+<?php
+$userid = $_GET['id'];
+require_once('connect.php');
+
+$query = mysql_query("SELECT * FROM users WHERE id= '$userid'");
+WHILE  ($row = mysql_fetch_assoc($query)) {
+$benutzer = $row['benutzer'];
+$alter =$row['alter'];
+$wohnort =$row['wohnort'];
+$sportart =$row['sportart'];
+}
+
+IF ($benutzer==$_session['login']) {
+    echo "<h3><b>Mein Profil:</b></h3>";
+}
+else {
+    echo "<h3>Profil von $benutzer:</h3>";
+}
+
+echo "
+Alter: <b>$alter</b><br>
+Wohnort: <b>$wohnort</b><br>
+Sportart: <b>$sportart</b><br>
+";
+?>
+
+</body>
+</html>
