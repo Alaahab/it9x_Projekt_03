@@ -35,8 +35,6 @@ class DBAuth
                                     SELECT * FROM users WHERE username = ? 
                                     ', [$username], null, true);
 
-//        var_dump($user);
-//        die();
 
         if ($user) {
             if ($user->password === sha1($password))  {

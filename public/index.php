@@ -31,6 +31,9 @@ elseif ($page === 'login') {
 elseif ($page === 'registration') {
     require ROOT . '\pages\users\registration.php';
 }
+elseif ($page === 'training') {
+    require ROOT . '/pages/users/TrainingstagebuchNew.php';
+}
 
 elseif ($page === 'admin.post.add') {
     require ROOT . '\pages/admin/posts/addPost.php';

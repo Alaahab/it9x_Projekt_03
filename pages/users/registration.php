@@ -53,7 +53,8 @@ $sex = array(0 => '',
 <body>
 <style>
     body {
-        background-image: url("../public/image/sport-im-park-hp.jpg"), no-repeat ;
+        /*background-image: url("../public/image/sport-im-park-hp.jpg");*/
+        /*background-repeat: no-repeat;*/
     }
 </style>
 <div class="container register">

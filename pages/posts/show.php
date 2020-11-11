@@ -3,6 +3,8 @@
 $app = App::getInstance();
 
 $post = $app->getTable('Post')->find($_GET['id']);
+var_dump($post);
+var_dump($_GET['id']);
 if ($post === false) {
     $app->notFound();
 }
@@ -10,6 +12,7 @@ if ($post === false) {
 //$app->title = $post->title;
 
 foreach ($post as $item);
+
 
 ?>
 

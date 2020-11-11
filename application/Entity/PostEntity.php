@@ -11,9 +11,11 @@ class PostEntity extends Entity{
 
     public function getExtract() {
         $html = '<p>' . substr($this->content, 0, 250) . '...</p>';
-        $html .= '<p><a href="' . $this->getURL() . '"> see more </a></p>';
+        $html .= '<button class="btn btn-info pull-right"><a style="text-decoration: none; color: white" href="' . $this->getURL() . '"> READ MORE </a></button>';
 
         return $html;
     }
 
 }
+?>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">

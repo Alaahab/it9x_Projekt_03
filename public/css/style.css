@@ -93,3 +93,59 @@
     margin-bottom: -15%;
     color: #495057;
 }
+
+/*Nora*/
+
+html {
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+body{
+    margin: 0;
+}
+
+summary {
+    background-color: #457b9d;
+    padding: 0.5em;
+}
+
+details {
+    display: flow-root;
+}
+
+form{
+    margin: 1em;
+}
+
+div{
+    margin: 1em;
+}
+
+table{
+    margin : 1em;
+    width: -webkit-fill-available;
+    border-spacing: 0px;
+}
+
+thead{
+    background-color: #a8dadc;
+    color: #1d3557;
+}
+
+
+
+.subdetail{
+    background-color: #f1faee;
+    margin: 1em;
+    color: #1d3557;
+}
+
+.subsummary{
+    background-color: #a8dadc;
+}
+
+.description{
+    background-color: #f1faee;
+    color: #1d3557;
+}

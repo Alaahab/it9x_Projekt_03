@@ -16,7 +16,7 @@ class PostTable extends Table
 
     public function last() {
 
-        return $this->query(" SELECT article.id, article.title, article.content, article.date, sportcategory.title as catergory
+        return $this->query(" SELECT article.id, article.title, article.content, article.date, article.user_id, sportcategory.title as catergory
         From article
         LEFT JOIN sportcategory ON category_id = sportcategory.id
         

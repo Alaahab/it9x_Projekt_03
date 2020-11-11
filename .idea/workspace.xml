@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4996c03d-418d-4e77-81d5-0755723d342e" name="Default Changelist" comment="Alaa-1">
-      <change afterPath="$PROJECT_DIR$/application/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/Car.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/Car4x4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/CarFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/car_citadine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/users/TrainingstagebuchNew.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/Entity/PostEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Entity/PostEntity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/Table/PostTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Table/PostTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Auth/DBAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Auth/DBAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/posts/addPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/posts/addPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +72,8 @@
       <workItem from="1604312597524" duration="21742000" />
       <workItem from="1604415802632" duration="5853000" />
       <workItem from="1604435698891" duration="273000" />
+      <workItem from="1605081402696" duration="11159000" />
+      <workItem from="1605118494282" duration="3546000" />
     </task>
     <task id="LOCAL-00001" summary="AH-1 Create forum part 1">
       <created>1604313520252</created>
@@ -132,18 +137,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="87" key="NewPhpClassDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604435953572" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1604435895134">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1605084871227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604435895134" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604354481045">
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605084871227" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605041956812">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604354481045" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604354462317">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605041956812" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605081438978">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604354462317" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605081438978" />
     <state x="450" y="172" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1604328863834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -152,10 +157,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604416570164" />
-    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1604354799980">
+    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1605093332097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604354799980" />
+    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605093332097" />
     <state x="526" y="125" key="refactoring.ChangeSignatureDialog" timestamp="1604179148911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

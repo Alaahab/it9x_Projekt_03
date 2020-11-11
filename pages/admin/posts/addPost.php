@@ -7,6 +7,7 @@ if (!empty($_POST)) {
             'title' => $_POST['title'],
             'content' => $_POST['content'],
             'category_id' => $_POST['category_id'],
+            'user_id' => $_SESSION['auth'],
             'date' => date('Y-m-d H:i:s'),
     ]);
 

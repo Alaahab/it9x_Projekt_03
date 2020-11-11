@@ -19,14 +19,14 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="index.php">Forum <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">Forum </a>
             </li>
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link" href="#"></a>-->
-<!--            </li>-->
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
-<!--            </li>-->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.php?p=training">Meine Statistik </a>
+            </li>
+            <li style="position: relative; left: 400%;" class="nav-item active">
+                <a class="nav-link" href="index.php?p=login">Sign out</a>
+            </li>
 
         </ul>
 
