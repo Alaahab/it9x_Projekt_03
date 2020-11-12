@@ -14,7 +14,7 @@
                 <?php foreach (\App::getInstance()->getTable('Post')->last() as $post): ?>
 
                     <h2><a href="<?= $post->url ?>"><?= $post->title; ?></a></h2>
-                    <p><strong>Author: </strong><em> <?= $post->user; ?></em></p>
+                    <p><strong>Author: </strong><em> <?= $post->user; ?></em><em style="float: right"> <?= $post->date; ?></em></p>
 
                     <p><?= $post->extract ?></p>
 

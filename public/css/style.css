@@ -96,14 +96,6 @@
 
 /*Nora*/
 
-html {
-    background-color: #1d3557;
-    color: #f1faee;
-}
-
-body{
-    margin: 0;
-}
 
 summary {
     background-color: #457b9d;
@@ -118,9 +110,7 @@ form{
     margin: 1em;
 }
 
-div{
-    margin: 1em;
-}
+
 
 table{
     margin : 1em;

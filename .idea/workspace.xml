@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4996c03d-418d-4e77-81d5-0755723d342e" name="Default Changelist" comment="">
+    <list default="true" id="4996c03d-418d-4e77-81d5-0755723d342e" name="Default Changelist" comment="AH-4 part 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/Table/PostTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Table/PostTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/posts/addPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/posts/addPost.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/posts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users/TrainingstagebuchNew.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/TrainingstagebuchNew.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +69,7 @@
       <workItem from="1605081402696" duration="11159000" />
       <workItem from="1605118494282" duration="3546000" />
       <workItem from="1605171110437" duration="805000" />
+      <workItem from="1605175241992" duration="4824000" />
     </task>
     <task id="LOCAL-00001" summary="AH-1 Create forum part 1">
       <created>1604313520252</created>
@@ -122,10 +125,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604433733922" />
-    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1605123487743">
+    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1605180596834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605123487743" />
+    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1605180596834" />
     <state x="462" y="87" key="NewPhpClassDialog" timestamp="1604435953572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -150,10 +154,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604416570164" />
-    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1605093332097">
+    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1605179099543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605093332097" />
+    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1605179099543" />
     <state x="526" y="125" key="refactoring.ChangeSignatureDialog" timestamp="1604179148911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

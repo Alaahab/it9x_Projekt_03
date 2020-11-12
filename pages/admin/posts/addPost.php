@@ -17,6 +17,7 @@ if (!empty($_POST)) {
         <?php
     }
 }
+
 $categorys = App::getInstance()->getTable('Category')->extract('id', 'title');
 $form = new BootstrapForm($_POST);
 

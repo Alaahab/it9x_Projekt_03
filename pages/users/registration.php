@@ -51,12 +51,6 @@ $sex = array(0 => '',
     });
 </script>
 <body>
-<style>
-    body {
-        /*background-image: url("../public/image/sport-im-park-hp.jpg");*/
-        /*background-repeat: no-repeat;*/
-    }
-</style>
 <div class="container register">
                 <div class="row">
                     <div class="col-md-3 register-left">
@@ -100,9 +94,8 @@ $sex = array(0 => '',
                                             <?= $form->input('username', 'pseudo'); ?>
                                         </div>
                                         <div class="form-group">
-                                            <?= $form->input('confirmpassword', 'confirmpassword', ['type' => 'password']); ?>
+                                            <?= $form->input('confirmpassword', 'confirmation password', ['type' => 'password']); ?>
                                         </div>
-
 
                                         <input type="submit" class="btnRegister"  value="Register"/>
                                     </div>
@@ -111,4 +104,3 @@ $sex = array(0 => '',
                             </div>
                 </div>
             </div>
-</body>
