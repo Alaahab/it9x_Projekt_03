@@ -1,6 +1,6 @@
 <?php
 
-namespace Application;
+namespace Core\Database;
 use \PDO;
 
 /**
@@ -9,7 +9,7 @@ use \PDO;
  * @package Application
  */
 
-class Database {
+class MysqlDatabase extends Database{
 
     private $db_name;
     private $db_user;
@@ -57,11 +57,15 @@ class Database {
      * @return array
      */
 
-    public function query($statement, $class_name, $one = false) {
+    public function query($statement, $class_name = null, $one = false) {
 
         $request = $this->getPDO()->query($statement);
 
-        $request->setFetchMode(PDO::FETCH_CLASS, $class_name);
+        if ($class_name === null) {
+            $request->setFetchMode(PDO::FETCH_OBJ);
+        } else {
+            $request->setFetchMode(PDO::FETCH_CLASS, $class_name);
+        }
 
         if ($one) {
             $data = $request->fetch();
@@ -78,12 +82,22 @@ class Database {
     /**
      * @return mixed
      */
-    public function prepare($statment, $attributes, $class_name,$one = false)
+    public function prepare($statment, $attributes, $class_name = null, $one = false)
     {
         $request = $this->getPDO()->prepare($statment);
-        $request->execute($attributes);
+        $res = $request->execute($attributes);
 
-        $request->setFetchMode(PDO::FETCH_CLASS, $class_name);
+        if (
+            strpos($statment, 'INSERT') === 0
+        ) {
+            return $res;
+        }
+
+        if ($class_name === null) {
+            $request->setFetchMode(PDO::FETCH_OBJ);
+        } else {
+            $request->setFetchMode(PDO::FETCH_CLASS, $class_name);
+        }
 
         if ($one) {
             $data = $request->fetch();
@@ -95,4 +109,8 @@ class Database {
         return $data;
 
     }
+
+//    public function lastInsertId() {
+//        return $this->getPDO()->lastInsertId();
+//    }
 }

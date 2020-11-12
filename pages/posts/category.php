@@ -1,22 +1,21 @@
 <?php
 
-use Application\App;
-use Application\Table\Article;
-use Application\Table\Category;
+$app = App::getInstance();
 
-$category = Category::find($_GET['id']);
-
+$category = $app->getTable('Category')->find($_GET['id']);
 if ($category === false) {
-    App::notFound();
+    $app->notFound();
 }
 
-$article = Article::lastByCategory($_GET['id']);
+$article = $app->getTable('Post')->find($_GET['id']);
 
-$categorys = Category::all();
+$categorys = $app->getTable('Category')->all();
+//var_dump($categorys);
 
 ?>
-
-<h1><?= $category->title; ?> </h1>
+<?php foreach ($category as $item): ?>
+<h1><?= $item->title ?> </h1>
+<?php endforeach; ?>
 <div class="row">
     <div class="col-sm-8">
 
@@ -24,7 +23,6 @@ $categorys = Category::all();
 
 
             <h2><a href="<?= $post->url ?>"><?= $post->title; ?></a></h2>
-            <p><em> <?= $post->category; ?></em></p>
 
             <p><?= $post->extract ?></p>
 
@@ -37,7 +35,7 @@ $categorys = Category::all();
 
         <ul>
 
-            <?php foreach (Category::all() as $category): ?>
+            <?php foreach ($categorys as $category): ?>
 
                 <li><a href="<?= $category->url; ?>"><?= $category->title; ?></a></li>
 

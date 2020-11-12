@@ -1,44 +1,62 @@
 <?php
 
-
-namespace Application;
-
+use Core\Config;
+use Core\Database\MysqlDatabase;
 
 class App
 {
 
-    const DB_NAME = 'trainingplan';
-    const DB_USER = 'root';
-    const DB_PASSWORD = '';
-    const DB_HOST = 'localhost';
+    public $title = 'TrainingTagBuch';
 
-    private static $database;
-    private static $title = 'TraingsTagbuch';
+    private $db_instance;
 
-    public static function getDb() {
+    private static $_instance;
 
-        if (self::$database === null) {
-
-            self::$database = new Database(self::DB_NAME, self::DB_USER, self::DB_HOST, self::DB_PASSWORD );
+    public static function getInstance() {
+        if (is_null(self::$_instance)) {
+            self::$_instance = new App();
         }
 
-        return self::$database;
+        return self::$_instance;
 
     }
 
-    public static function notFound() {
-        header("HTTP/1.0 404 Not Found");
-        header('Location:index.php?p=404');
+    public static function load() {
+
+        session_start();
+        require ROOT . '/application/Autoload.php';
+        Application\Autoload::register();
+        require ROOT . '/core/Autoload.php';
+        Core\Autoload::register();
     }
 
-    public static function getTitle() {
+    public function getTable($name) {
 
-        return self::$title;
+        $class_name = '\\Application\\Table\\' . ucfirst($name) . 'Table';
+        return new $class_name($this->getDb());
     }
 
-    public function setTitle($title) {
+    public function getDb() {
+        $config = Config::getInstance(ROOT . '/config/config.php');
 
-        self::$title = $title;
+        if (is_null($this->db_instance)) {
+
+            return new MysqlDatabase($config->get('db_name'), $config->get('db_user'), $config->get('db_host'), $config->get('db_password'));
+        }
+
+        return $this->db_instance;
+
+
+    }
+
+    public function forbidden() {
+        header('HTTP/1.0.403 Forbidden');
+        die('Acces interdit');
+    }
+
+    public function notFound() {
+        header('HTTP/1.0 404 Not Found');
+        die('Page not Found');
     }
 
 
