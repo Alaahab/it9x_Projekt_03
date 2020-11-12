@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4996c03d-418d-4e77-81d5-0755723d342e" name="Default Changelist" comment="Alaa-1">
-      <change afterPath="$PROJECT_DIR$/pages/users/TrainingstagebuchNew.php" afterDir="false" />
+    <list default="true" id="4996c03d-418d-4e77-81d5-0755723d342e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/Entity/PostEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Entity/PostEntity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/Table/PostTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Table/PostTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Auth/DBAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Auth/DBAuth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admin/posts/addPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/posts/addPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/posts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/posts/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/users/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/users/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +66,7 @@
       <workItem from="1604435698891" duration="273000" />
       <workItem from="1605081402696" duration="11159000" />
       <workItem from="1605118494282" duration="3546000" />
+      <workItem from="1605171110437" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="AH-1 Create forum part 1">
       <created>1604313520252</created>
@@ -129,10 +122,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604433733922" />
-    <state x="129" y="55" key="DiffContextDialog" timestamp="1604150185293">
+    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1605123487743">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="55" key="DiffContextDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604150185293" />
+    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605123487743" />
     <state x="462" y="87" key="NewPhpClassDialog" timestamp="1604435953572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

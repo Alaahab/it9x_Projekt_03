@@ -16,9 +16,9 @@ class PostTable extends Table
 
     public function last() {
 
-        return $this->query(" SELECT article.id, article.title, article.content, article.date, article.user_id, sportcategory.title as catergory
+        return $this->query(" SELECT article.id, article.title, article.content, article.date, article.user_id, users.username as user
         From article
-        LEFT JOIN sportcategory ON category_id = sportcategory.id
+        LEFT JOIN users ON user_id = users.id
         
         ORDER BY article.date DESC");
 
@@ -53,6 +53,22 @@ class PostTable extends Table
         LEFT JOIN sportcategory ON category_id = sportcategory.id
         
         WHERE article.category_id = ?
+        ", [$id], true);
+
+    }
+    /**
+     *get an  post by linking the associated category
+     *
+     * @return \App\Entity\PostEntity
+     */
+
+    public function readMore($id) {
+
+        return $this->query(" SELECT article.id, article.title, article.content, article.date, sportcategory.title as catergory
+        From article
+        LEFT JOIN sportcategory ON category_id = sportcategory.id
+        
+        WHERE article.id = ?
         ", [$id], true);
 
     }

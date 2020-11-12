@@ -23,7 +23,6 @@ $categorys = $app->getTable('Category')->all();
 
 
             <h2><a href="<?= $post->url ?>"><?= $post->title; ?></a></h2>
-            <p><em> <?= $post->catergory; ?></em></p>
 
             <p><?= $post->extract ?></p>
 

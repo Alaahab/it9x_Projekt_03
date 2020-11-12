@@ -14,8 +14,7 @@
                 <?php foreach (\App::getInstance()->getTable('Post')->last() as $post): ?>
 
                     <h2><a href="<?= $post->url ?>"><?= $post->title; ?></a></h2>
-                    <p><em> <?= $post->catergory; ?></em></p>
-<!--                    <p><strong>Author: </strong><em> --><?//= $post->user; ?><!--</em></p>-->
+                    <p><strong>Author: </strong><em> <?= $post->user; ?></em></p>
 
                     <p><?= $post->extract ?></p>
 
@@ -31,13 +30,12 @@
             <ul>
 
                 <?php foreach (\App::getInstance()->getTable('Category')->all() as $category): ?>
-
-                    <li><a href="<?= $category->url; ?>"><?= $category->title; ?></a></li>
-
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="<?= $category->url; ?>" role="tab" aria-controls="v-pills-home" aria-selected="true"><?= $category->title; ?></a>
+                </div>
                 <?php endforeach; ?>
 
             </ul>
-
 
         </div>
 
