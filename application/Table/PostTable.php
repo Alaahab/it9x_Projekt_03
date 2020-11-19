@@ -23,6 +23,7 @@ class PostTable extends Table
         ORDER BY article.date DESC");
 
     }
+
     /**
      *get the last posts to category
      * @param $category_id int
