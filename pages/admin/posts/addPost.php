@@ -12,9 +12,8 @@ if (!empty($_POST)) {
     ]);
 
     if ($result) {
-        ?>
-            <div class="alert alert-success"> Good </div>
-        <?php
+
+        header('Location: index.php');
     }
 }
 

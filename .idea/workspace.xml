@@ -2,12 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4996c03d-418d-4e77-81d5-0755723d342e" name="Default Changelist" comment="AH-4 part 2">
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/api/datapoints.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/daily-sales-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/fonts/roboto-v15-latin-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/fonts/roboto-v15-latin-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/fonts/roboto-v15-latin-500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/fonts/roboto-v15-latin-500.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/fonts/roboto-v15-latin-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/fonts/roboto-v15-latin-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/fonts/roboto-v15-latin-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/fonts/roboto-v15-latin-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/area.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/bar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/bubble.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/column.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/doughnut.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/line.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/pie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/scatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/spline-area.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/spline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/stacked-area.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/stacked-area100.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/stacked-bar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/stacked-bar100.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/stacked-column.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/stacked-column100.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/step-area.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/chart-types/step-line.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/features/date-time.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/features/event-handling.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/features/export-chart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/features/logarithmic-axis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/features/multi-series.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/features/multiple-y-axis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/features/reversed-axis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/features/strip-line.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/features/zooming-panning.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/how-to/add-data-points.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/how-to/create-chart-from-csv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/how-to/create-chart-from-json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/how-to/create-chart-from-xml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/how-to/data-from-database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/how-to/enable-disable-ds.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/how-to/live-chart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/how-to/multiple-charts-in-a-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/how-to/play-stop-live-chart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/how-to/sync-multiple-charts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/mysql-dump/canvasjs_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP CanvasJS Chart Samples/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/Entity/DailydataEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/Entity/UserEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/Entity/ZieldataEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/Table/DailydataTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/Table/ZieldataTable.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/Table/PostTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Table/PostTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/Table/UserTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Table/UserTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Database/MysqlDatabase.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Database/MysqlDatabase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Table/Table.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Table/Table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/admin/posts/addPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/posts/addPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/default.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/users/TrainingstagebuchNew.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/TrainingstagebuchNew.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/users/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +141,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Blog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -47,6 +150,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp2\htdocs\it9x_projekt_03" />
       <recent name="C:\xampp2\htdocs\it9x_projekt_03\application" />
     </key>
   </component>
@@ -70,6 +174,18 @@
       <workItem from="1605118494282" duration="3546000" />
       <workItem from="1605171110437" duration="805000" />
       <workItem from="1605175241992" duration="4824000" />
+      <workItem from="1605189988093" duration="25000" />
+      <workItem from="1605209382806" duration="202000" />
+      <workItem from="1605353581949" duration="3545000" />
+      <workItem from="1605357146791" duration="235000" />
+      <workItem from="1605357438297" duration="7098000" />
+      <workItem from="1605382715435" duration="3746000" />
+      <workItem from="1605435316724" duration="9697000" />
+      <workItem from="1605521540690" duration="15160000" />
+      <workItem from="1605604154060" duration="23118000" />
+      <workItem from="1605683506892" duration="13626000" />
+      <workItem from="1605708347413" duration="3330000" />
+      <workItem from="1605775871350" duration="11437000" />
     </task>
     <task id="LOCAL-00001" summary="AH-1 Create forum part 1">
       <created>1604313520252</created>
@@ -110,38 +226,44 @@
     <MESSAGE value="AH-2 Rename DB" />
     <MESSAGE value="AH-2 add trainingplan.sql" />
     <MESSAGE value="AH-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="AH-2" />
+    <MESSAGE value="AH-4 part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="AH-4 part 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1604228720402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604228720402" />
-    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604329116714">
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605634856318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604329116714" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605634856318" />
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1604433733922">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604433733922" />
-    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1605180596834">
+    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1605605603598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605123487743" />
+    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605605603598" />
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1605180596834" />
-    <state x="462" y="87" key="NewPhpClassDialog" timestamp="1604435953572">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1605791604804">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="87" key="NewPhpClassDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604435953572" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605791604804" />
+    <state x="462" y="87" key="NewPhpClassDialog" timestamp="1605785393954">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="87" key="NewPhpClassDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605785393954" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1605084871227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605084871227" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605041956812">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605181140729">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605041956812" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605181140729" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605081438978">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -154,19 +276,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604416570164" />
-    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1605179099543">
+    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1605791789585">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605093332097" />
-    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1605179099543" />
+    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605791789585" />
+    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1605181730526" />
     <state x="526" y="125" key="refactoring.ChangeSignatureDialog" timestamp="1604179148911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="526" y="125" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604179148911" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1604155046605">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1605636842455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1604155046605" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/1366.-128.1680.1010@0.0.1366.728" timestamp="1605636842455" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604178759004">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
